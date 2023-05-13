@@ -1,0 +1,28 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "cleanup": "rimraf .parcel-cache dist",
+    "dev": "npm run cleanup && parcel ./src/html/pages/index.html --no-cache",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/html/pages/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-posthtml": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "autoprefixer": "^10.4.14",
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.21",
+    "posthtml-include": "^1.7.4",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "slick-carousel": "^1.8.1"
+  }
+}

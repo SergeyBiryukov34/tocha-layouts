@@ -1,0 +1,25 @@
+<header class="py-8 bg-gray-70">
+  <div class="container max-w-6xl">
+    <div class="flex justify-between items-start md:items-center">
+
+      <a class="flex items-center" href="/">
+        <img class="md:w-14 md:h-10" src="../../images/logo.png" alt/>
+        <span class="text-xl font-bold md:text-3xl">tocha</span>
+      </a>
+
+      <div id="nav" class="absolute inset-0 md:h-auto md:w-auto md:relative md:bg-transparent w-full h-full transition-all bg-white z-10 -translate-x-[50rem] md:translate-x-0">
+        <div class="flex flex-col md:flex-row h-screen md:h-auto md:w-auto w-full items-center justify-center px-10 md:px-0 gap-y-3 md:gap-x-2.5 md:items-center font-bold text-base leading-5">
+          <a class="w-full md:w-auto px-5 py-2.5 text-center text-primary bg-secondary rounded-md" href="#">Вход</a>
+          <a class="w-full md:w-auto px-5 py-2.5 text-center text-white bg-primary rounded-md shadow-button" href="#">Регистрация</a>
+        </div>
+      </div>
+
+      <button id="trigger" class="md:hidden relative z-20">
+        <svg class="w-8 h-5">
+          <use xlink:href="../../images/sprite.svg#burger"></use>
+        </svg>
+      </button>
+
+    </div>
+  </div>
+</header>
