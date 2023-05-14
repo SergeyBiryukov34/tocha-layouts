@@ -8,7 +8,7 @@
 * Tailwind
 * Jquery
 * Slick Carousel
-* 
+
 ###### Использование:
 1. `npm install`
 2. Режим разработки - `npm run dev`
