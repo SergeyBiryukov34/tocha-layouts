@@ -1,7 +1,7 @@
-# Drile
+# Tocha
 ### Вёрстка главной страницы макета.
 
-### [Демо](https://sergeybiryukov34.github.io/drile/)
+### [Демо](https://sergeybiryukov34.github.io/tocha/)
 
 ###### Технологии:
 * Parcel
